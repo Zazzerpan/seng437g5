@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1030]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll</TopNode>
+  <SelectedNode>[0-1030]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1030]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll" Expanded="true" />
+    <Node UniqueName="[0-1031]Drilling_Calculator_NUnit" Expanded="true" />
+    <Node UniqueName="[0-1019]Drilling_Calculator_NUnit.drillPipeTests" Expanded="true" />
+    <Node UniqueName="[0-1000]Drilling_Calculator_NUnit.PumpfactorTests" Expanded="true" />
+  </Nodes>
+</VisualState>

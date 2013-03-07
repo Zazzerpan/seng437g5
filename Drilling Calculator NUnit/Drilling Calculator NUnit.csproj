@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="NUnit Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Charts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

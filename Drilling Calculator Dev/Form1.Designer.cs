@@ -17998,23 +17998,109 @@
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.CheckBox checkBox5;
+
         private System.Windows.Forms.ComboBox comboBox5;
+        public string comboBox5_selected
+        {
+            get { return System.Convert.ToString(comboBox5.SelectedItem); }
+            set { comboBox5.SelectedItem = value; }
+
+        }
+
         private System.Windows.Forms.ComboBox comboBox6;
+        public string comboBox6_selected
+        {
+            get { return System.Convert.ToString(comboBox6.SelectedItem); }
+            set { comboBox6.SelectedItem = value; }
+
+        }
+
         private System.Windows.Forms.CheckBox checkBox7;
+
         private System.Windows.Forms.ComboBox comboBox7;
+        public string comboBox7_selected
+        {
+            get { return System.Convert.ToString(comboBox7.SelectedItem); }
+            set { comboBox7.SelectedItem = value; }
+
+        }
+
         private System.Windows.Forms.GroupBox groupBox24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
+
         private System.Windows.Forms.TextBox textBox36;
+        public string textBox36_text
+        {
+            get { return textBox36.Text; }
+            set { textBox36.Text = value; }
+        }
+
         private System.Windows.Forms.TextBox textBox35;
+        public string textBox35_text
+        {
+            get { return textBox35.Text; }
+            set { textBox35.Text = value; }
+        }
+
         private System.Windows.Forms.TextBox textBox34;
+        public string textBox34_text
+        {
+            get { return textBox34.Text; }
+            set { textBox34.Text = value; }
+        }
+
         private System.Windows.Forms.CheckBox checkBox4;
+        public bool checkBox4_Checked
+        {
+            get { return checkBox4.Checked; }
+            set { checkBox4.Checked = value; }
+        }
+
+
         private System.Windows.Forms.CheckBox checkBox3;
+        public bool checkBox3_Checked
+        {
+            get { return checkBox3.Checked; }
+            set { checkBox3.Checked = value; }
+        }
+
+
         private System.Windows.Forms.ComboBox comboBox4;
+        public string comboBox4_selected
+        {
+            get { return System.Convert.ToString(comboBox4.SelectedItem); }
+            set { comboBox4.SelectedItem = value; }
+
+        }
+
         private System.Windows.Forms.ComboBox comboBox3;
+        public string comboBox3_selected
+        {
+            get { return System.Convert.ToString(comboBox3.SelectedItem); }
+            set { comboBox3.SelectedItem = value; }
+
+        }
+
         private System.Windows.Forms.CheckBox checkBox2;
+        public bool checkBox2_Checked
+        {
+            get { return checkBox2.Checked; }
+            set { checkBox2.Checked = value; }
+        }
+
+
         private System.Windows.Forms.ComboBox comboBox2;
+        public string comboBox2_selected
+        {
+            get { return System.Convert.ToString(comboBox2.SelectedItem); }
+            set { comboBox2.SelectedItem = value;}
+
+        }
+
+
+
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button23;

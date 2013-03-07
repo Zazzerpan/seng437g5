@@ -770,7 +770,7 @@ namespace WindowsFormsApplication5
 
 
 
-        private void button23_Click(object sender, EventArgs e)
+        public void button23_Click(object sender, EventArgs e)
         {
 
             for (int i = 0; i < 21; i++)
