@@ -1093,7 +1093,7 @@ namespace WindowsFormsApplication5
 
 
 
-        private void button24_Click(object sender, EventArgs e)
+        public void button24_Click(object sender, EventArgs e)
         {
             int i, j, k = 0;
 

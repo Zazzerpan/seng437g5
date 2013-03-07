@@ -5,7 +5,7 @@ using WindowsFormsApplication5;
 
 namespace Drilling_Calculator_NUnit
 {
-    //Button23
+    //Complete Statement & Edge coverage, Condition & Path not done yet
     [TestFixture]
     public class drillPipeTests
     {
@@ -298,7 +298,7 @@ namespace Drilling_Calculator_NUnit
         }
     }
 
-    /*
+    
     [TestFixture]
     public class drillCollarTests
     {
@@ -306,11 +306,225 @@ namespace Drilling_Calculator_NUnit
         [Test]
         public void button24_None_Test()
         {
+            Form1 test = new Form1();
 
+            test.checkBox5_checked = false;
+            test.checkBox6_checked = false;
+            test.checkBox7_checked = false;
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "Recheck") &&
+                (test.textBox38_text == "Recheck") &&
+                (test.textBox39_text == "Recheck"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_WtFt_Match_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = true;
+            test.checkBox6_checked = true;
+            test.checkBox7_checked = false;
+
+            test.comboBox5_selected = "24.00";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "24.00") &&
+                (test.textBox38_text == "3-1/4") &&
+                (test.textBox39_text == "1-1/4"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_WtFt_NoMatch_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = true;
+            test.checkBox6_checked = true;
+            test.checkBox7_checked = false;
+
+            test.comboBox5_selected = "invalid";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "Recheck") &&
+                (test.textBox38_text == "Recheck") &&
+                (test.textBox39_text == "Recheck"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_WtFt_Match_Alternative_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = false;
+            test.checkBox6_checked = true;
+            test.checkBox7_checked = false;
+
+            test.comboBox5_selected = "21.35";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "21.35") &&
+                (test.textBox38_text == "3") &&
+                (test.textBox39_text == "1"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_WtFt_NoMatch_Alternative_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = false;
+            test.checkBox6_checked = true;
+            test.checkBox7_checked = false;
+
+            test.comboBox5_selected = "invalid";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "Recheck") &&
+                (test.textBox38_text == "Recheck") &&
+                (test.textBox39_text == "Recheck"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_OD_ID_Match_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = true;
+            test.checkBox6_checked = false;
+            test.checkBox7_checked = true;
+
+            test.comboBox7_selected = "3-3/8";
+            test.comboBox6_selected = "1-1/2";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "24.39") &&
+                (test.textBox38_text == "3-3/8") &&
+                (test.textBox39_text == "1-1/2"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_OD_ID_MatchButEmpty_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = true;
+            test.checkBox6_checked = false;
+            test.checkBox7_checked = true;
+
+            test.comboBox7_selected = "3";
+            test.comboBox6_selected = "1-1/4";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "Recheck") &&
+                (test.textBox38_text == "Recheck") &&
+                (test.textBox39_text == "Recheck"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
+        }
+
+        [STAThread]
+        [Test]
+        public void button24_OD_ID_NoMatch_Test()
+        {
+            Form1 test = new Form1();
+
+            test.checkBox5_checked = true;
+            test.checkBox6_checked = false;
+            test.checkBox7_checked = true;
+
+            test.comboBox7_selected = "invalid";
+            test.comboBox6_selected = "invalid";
+
+            test.button24_Click(null, null);
+
+            bool actual;
+
+            if ((test.textBox37_text == "Recheck") &&
+                (test.textBox38_text == "Recheck") &&
+                (test.textBox39_text == "Recheck"))
+            {
+                actual = true;
+            }
+            else
+                actual = false;
+
+            Assert.AreEqual(actual, true);
         }
     }
-    */
-
-
-
 }

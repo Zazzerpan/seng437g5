@@ -1,69 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll" total="28" errors="0" failures="11" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-03-07" time="04:53:46">
+<test-results name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll" total="36" errors="0" failures="11" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-03-07" time="07:39:01">
   <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="SIMONLUNA-HP" user="SIMON LUNA" user-domain="SIMONLUNA-HP" />
   <culture-info current-culture="en-CA" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll" executed="True" result="Failure" success="False" time="18.300" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator NUnit\bin\Debug\Drilling Calculator NUnit.dll" executed="True" result="Failure" success="False" time="21.825" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Drilling_Calculator_NUnit" executed="True" result="Failure" success="False" time="18.290" asserts="0">
+      <test-suite type="Namespace" name="Drilling_Calculator_NUnit" executed="True" result="Failure" success="False" time="21.815" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="drillPipeTests" executed="True" result="Success" success="True" time="7.922" asserts="0">
+          <test-suite type="TestFixture" name="drillCollarTests" executed="True" result="Success" success="True" time="6.884" asserts="0">
             <results>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_Match_Test" executed="True" result="Success" success="True" time="2.861" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_None_Test" executed="True" result="Success" success="True" time="2.995" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.598" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_Match_Test" executed="True" result="Success" success="True" time="0.604" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_None_Test" executed="True" result="Success" success="True" time="0.594" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_MatchButEmpty_Test" executed="True" result="Success" success="True" time="0.530" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_Match_Test" executed="True" result="Success" success="True" time="0.445" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.487" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.445" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_Match_Alternative_Test" executed="True" result="Success" success="True" time="0.462" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_Test" executed="True" result="Success" success="True" time="0.522" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.578" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.560" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_NoMatch_Alternative_Test" executed="True" result="Success" success="True" time="0.572" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.635" asserts="1">
-                <properties>
-                  <property name="APARTMENT_STATE" value="STA" />
-                </properties>
-              </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.632" asserts="1">
-                <properties>
-                  <property name="APARTMENT_STATE" value="STA" />
-                </properties>
-              </test-case>
-              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.572" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.605" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="PumpfactorTests" executed="True" result="Failure" success="False" time="10.359" asserts="0">
+          <test-suite type="TestFixture" name="drillPipeTests" executed="True" result="Success" success="True" time="5.951" asserts="0">
             <results>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestBarrels" executed="True" result="Failure" success="False" time="0.653" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_Match_Test" executed="True" result="Success" success="True" time="0.577" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.596" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_None_Test" executed="True" result="Success" success="True" time="0.604" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_Match_Test" executed="True" result="Success" success="True" time="0.600" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.576" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_Test" executed="True" result="Success" success="True" time="0.606" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.555" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.629" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.569" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.604" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PumpfactorTests" executed="True" result="Failure" success="False" time="8.965" asserts="0">
+            <results>
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestBarrels" executed="True" result="Failure" success="False" time="0.608" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -75,7 +119,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestCubicInches" executed="True" result="Failure" success="False" time="0.609" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestCubicInches" executed="True" result="Failure" success="False" time="0.573" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -87,7 +131,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestGallons" executed="True" result="Failure" success="False" time="0.575" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.NegTestGallons" executed="True" result="Failure" success="False" time="0.595" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -99,7 +143,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestBarrels" executed="True" result="Failure" success="False" time="0.545" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestBarrels" executed="True" result="Failure" success="False" time="0.580" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -111,12 +155,12 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestCubicInches" executed="True" result="Success" success="True" time="0.581" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestCubicInches" executed="True" result="Success" success="True" time="0.602" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestGallons" executed="True" result="Failure" success="False" time="0.602" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.PosTestGallons" executed="True" result="Failure" success="False" time="0.499" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -129,7 +173,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestBarrels" executed="True" result="Failure" success="False" time="0.554" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestBarrels" executed="True" result="Failure" success="False" time="0.505" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -142,7 +186,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestCubicInches" executed="True" result="Failure" success="False" time="0.593" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestCubicInches" executed="True" result="Failure" success="False" time="0.443" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -155,7 +199,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestGallons" executed="True" result="Failure" success="False" time="0.554" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexNegTestGallons" executed="True" result="Failure" success="False" time="0.435" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -168,7 +212,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestBarrels" executed="True" result="Failure" success="False" time="0.575" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestBarrels" executed="True" result="Failure" success="False" time="0.411" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -181,7 +225,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestCubicInches" executed="True" result="Failure" success="False" time="0.691" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestCubicInches" executed="True" result="Failure" success="False" time="0.438" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -194,7 +238,7 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestGallons" executed="True" result="Failure" success="False" time="0.540" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexPosTestGallons" executed="True" result="Failure" success="False" time="0.409" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
@@ -207,32 +251,32 @@
 ]]></stack-trace>
                 </failure>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestCBarrels" executed="True" result="Success" success="True" time="0.569" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestCBarrels" executed="True" result="Success" success="True" time="0.420" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestCubicInches" executed="True" result="Success" success="True" time="0.570" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestCubicInches" executed="True" result="Success" success="True" time="0.434" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestGallons" executed="True" result="Success" success="True" time="0.540" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.TriplexZeroTestGallons" executed="True" result="Success" success="True" time="0.402" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestCBarrels" executed="True" result="Success" success="True" time="0.454" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestCBarrels" executed="True" result="Success" success="True" time="0.435" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestCubicInches" executed="True" result="Success" success="True" time="0.406" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestCubicInches" executed="True" result="Success" success="True" time="0.404" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>
               </test-case>
-              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestGallons" executed="True" result="Success" success="True" time="0.420" asserts="1">
+              <test-case name="Drilling_Calculator_NUnit.PumpfactorTests.ZeroTestGallons" executed="True" result="Success" success="True" time="0.435" asserts="1">
                 <properties>
                   <property name="APARTMENT_STATE" value="STA" />
                 </properties>

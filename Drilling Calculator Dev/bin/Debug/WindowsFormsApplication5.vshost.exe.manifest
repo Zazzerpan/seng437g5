@@ -62,14 +62,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication5.exe" size="1421312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication5.exe" size="1423360">
       <assemblyIdentity name="WindowsFormsApplication5" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>q1gIOFWjCoe+X+VTzc3A2otQfvM=</dsig:DigestValue>
+        <dsig:DigestValue>zUsJw6EkoGckHLqk/c2IzJGWvCg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

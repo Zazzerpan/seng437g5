@@ -17993,11 +17993,44 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
+
         private System.Windows.Forms.TextBox textBox37;
+        public string textBox37_text
+        {
+            get { return textBox37.Text; }
+            set { textBox37.Text = value; }
+        }
+
+
         private System.Windows.Forms.TextBox textBox39;
+        public string textBox39_text
+        {
+            get { return textBox39.Text; }
+            set { textBox39.Text = value; }
+        }
+
         private System.Windows.Forms.TextBox textBox38;
+        public string textBox38_text
+        {
+            get { return textBox38.Text; }
+            set { textBox38.Text = value; }
+        }
+
         private System.Windows.Forms.CheckBox checkBox6;
+        public bool checkBox6_checked
+        {
+            get { return checkBox6.Checked; }
+            set { checkBox6.Checked = value; }
+        }
+
+
         private System.Windows.Forms.CheckBox checkBox5;
+        public bool checkBox5_checked
+        {
+            get { return checkBox5.Checked; }
+            set { checkBox5.Checked = value; }
+        }
+
 
         private System.Windows.Forms.ComboBox comboBox5;
         public string comboBox5_selected
@@ -18016,6 +18049,13 @@
         }
 
         private System.Windows.Forms.CheckBox checkBox7;
+        public bool checkBox7_checked
+        {
+            get { return checkBox7.Checked; }
+            set { checkBox7.Checked = value; }
+        }
+
+
 
         private System.Windows.Forms.ComboBox comboBox7;
         public string comboBox7_selected
