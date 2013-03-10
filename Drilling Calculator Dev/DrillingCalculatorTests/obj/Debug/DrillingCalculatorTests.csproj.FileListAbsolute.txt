@@ -2,6 +2,6 @@ C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\bin\Debug\DrillingCalculatorTests.dll.config
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\bin\Debug\DrillingCalculatorTests.dll
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\bin\Debug\DrillingCalculatorTests.pdb
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\obj\Debug\DrillingCalculatorTests.csprojResolveAssemblyReference.cache
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\obj\Debug\DrillingCalculatorTests.dll
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\obj\Debug\DrillingCalculatorTests.pdb
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\DrillingCalculatorTests\obj\Debug\DrillingCalculatorTests.csprojResolveAssemblyReference.cache

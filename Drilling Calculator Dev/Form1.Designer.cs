@@ -17980,15 +17980,72 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
+
         private System.Windows.Forms.TextBox textBox40;
+        public string textBox40_text
+        {
+            get { return textBox40.Text; }
+            set { textBox40.Text = value; }
+        }
+
         private System.Windows.Forms.TextBox textBox42;
+        public string textBox42_text
+        {
+            get { return textBox42.Text; }
+            set { textBox42.Text = value; }
+        }
+
         private System.Windows.Forms.TextBox textBox41;
+        public string textBox41_text
+        {
+            get { return textBox41.Text; }
+            set { textBox41.Text = value; }
+        }
+
         private System.Windows.Forms.CheckBox checkBox9;
+        public bool checkBox9_checked
+        {
+            get { return checkBox9.Checked; }
+            set { checkBox9.Checked = value; }
+        }
         private System.Windows.Forms.CheckBox checkBox8;
+        public bool checkBox8_checked
+        {
+            get { return checkBox8.Checked; }
+            set { checkBox8.Checked = value; }
+        }
+
+
         private System.Windows.Forms.ComboBox comboBox8;
+        public string comboBox8_selected
+        {
+            get { return System.Convert.ToString(comboBox8.SelectedItem); }
+            set { comboBox8.SelectedItem = value; }
+        }
+
         private System.Windows.Forms.ComboBox comboBox9;
+        public string comboBox9_selected
+        {
+            get { return System.Convert.ToString(comboBox9.SelectedItem); }
+            set { comboBox9.SelectedItem = value; }
+        }
+
         private System.Windows.Forms.CheckBox checkBox10;
+        public bool checkBox10_checked
+        {
+            get { return checkBox10.Checked; }
+            set { checkBox10.Checked = value; }
+        }
+
+
         private System.Windows.Forms.ComboBox comboBox10;
+        public string comboBox10_selected
+        {
+            get { return System.Convert.ToString(comboBox10.SelectedItem); }
+            set { comboBox10.SelectedItem = value; }
+        }
+
+
         private System.Windows.Forms.GroupBox groupBox25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
@@ -18145,7 +18202,14 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Label label32;
+
         private System.Windows.Forms.TextBox textBox43;
+        public string textBox43_text
+        {
+            get { return textBox43.Text; }
+            set { textBox43.Text = value; }
+        }
+
         private System.Windows.Forms.Button button32;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button34;
@@ -18155,8 +18219,22 @@
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button26;
+
         private System.Windows.Forms.RadioButton radioButton29;
+        public bool radioButton29_checked
+        {
+            get { return radioButton29.Checked; }
+            set { radioButton29.Checked = value; }
+        }
+
         private System.Windows.Forms.RadioButton radioButton28;
+        public bool radioButton28_checked
+        {
+            get { return radioButton28.Checked; }
+            set { radioButton28.Checked = value; }
+        }
+
+
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;

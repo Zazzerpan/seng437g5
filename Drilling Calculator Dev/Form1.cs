@@ -922,7 +922,7 @@ namespace WindowsFormsApplication5
 
 
         
-        private void button25_Click(object sender, EventArgs e)
+        public void button25_Click(object sender, EventArgs e)
         {
             int k=0;
             //OD+ID+Spiral
@@ -1170,8 +1170,8 @@ namespace WindowsFormsApplication5
 
         }
 
-        double cp=0.0,cp2=0.0,cp3=0.0;
-        private void button26_Click(object sender, EventArgs e)
+        public double cp=0.0,cp2=0.0,cp3=0.0;
+        public void button26_Click(object sender, EventArgs e)
         {
             if(textBox34.Text=="2-3/8")
                 cp=2.375;
@@ -1191,17 +1191,17 @@ namespace WindowsFormsApplication5
                 cp=Convert.ToDouble(textBox34.Text);
         }
 
-        private void button27_Click(object sender, EventArgs e)
+        public void button27_Click(object sender, EventArgs e)
         {
             cp2=Convert.ToDouble(textBox35.Text);
         }
 
-        private void button28_Click(object sender, EventArgs e)
+        public void button28_Click(object sender, EventArgs e)
         {
             cp3=Convert.ToDouble(textBox36.Text);
         }
 
-        private void button31_Click(object sender, EventArgs e)
+        public void button31_Click(object sender, EventArgs e)
         {
             if(textBox38.Text=="3-1/8")
                 cp=3.125;
@@ -1267,7 +1267,7 @@ namespace WindowsFormsApplication5
                 cp=Convert.ToDouble(textBox34.Text);
         }
 
-        private void button30_Click(object sender, EventArgs e)
+        public void button30_Click(object sender, EventArgs e)
         {
             if(textBox39.Text=="11/8")
                 cp2=1.375;
@@ -1293,12 +1293,12 @@ namespace WindowsFormsApplication5
                 cp2=Convert.ToDouble(textBox34.Text);
         }
 
-        private void button29_Click(object sender, EventArgs e)
+        public void button29_Click(object sender, EventArgs e)
         {
             cp3=Convert.ToDouble(textBox37.Text);
         }
 
-        private void button34_Click(object sender, EventArgs e)
+        public void button34_Click(object sender, EventArgs e)
         {
             if(textBox41.Text=="2-7/8")
                 cp=2.875;
@@ -1313,7 +1313,7 @@ namespace WindowsFormsApplication5
             
          }
 
-        private void button33_Click(object sender, EventArgs e)
+        public void button33_Click(object sender, EventArgs e)
         {
             if(textBox42.Text=="1-1/2")
                 cp2=1.5;
@@ -1339,7 +1339,7 @@ namespace WindowsFormsApplication5
                 cp2=Convert.ToDouble(textBox42.Text); 
         }
 
-        private void button32_Click(object sender, EventArgs e)
+        public void button32_Click(object sender, EventArgs e)
         {
             cp3=Convert.ToDouble(textBox40.Text); 
         }
