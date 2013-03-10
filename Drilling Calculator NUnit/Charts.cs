@@ -562,8 +562,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_OD_ID_Std_Match_Test()
+        [TestCase("18.01", "2-7/8", "1-1/2")]
+        [TestCase("13.67", "2-7/8", "2")]
+        [TestCase("14.21", "2-7/8", "2-1/16")]
+        [TestCase("13.51", "2-7/8", "2-1/8")]
+        [TestCase("25.38", "3-1/2", "2-1/16")]
+        [TestCase("23.50", "3-1/2", "2-1/4")]
+        [TestCase("30.68", "4", "2-1/2")]
+        [TestCase("29.06", "4", "2-9/16")]
+        [TestCase("43.70", "4-1/2", "2-1/2")]
+        [TestCase("39.42", "4-1/2", "2-13/16")]
+        [TestCase("50.23", "5", "3")]
+        [TestCase("53.45", "5-1/2", "3-5/8")]
+        [TestCase("48.93", "5-1/2", "3-7/8")]
+        public void button25_OD_ID_Std_Match_Test(string expected, string selected1, string selected2)
         {
             Form1 test = new Form1();
 
@@ -572,16 +584,16 @@ namespace Drilling_Calculator_NUnit
 
             test.radioButton28_checked = true;
 
-            test.comboBox9_selected = "2-1/8";
-            test.comboBox10_selected = "2-7/8"; 
+            test.comboBox9_selected = selected2;
+            test.comboBox10_selected = selected1; 
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "13.51") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "2-1/8") &&
+            if ((test.textBox40_text == expected) &&
+                (test.textBox41_text == selected1) &&
+                (test.textBox42_text == selected2) &&
                 (test.textBox43_text == "STANDARD"))
             {
                 actual = true;
@@ -626,8 +638,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_OD_ID_Spiral_Match_Test()
+        [TestCase("21.86", "2-7/8", "1-1/2")]
+        [TestCase("16.98", "2-7/8", "2")]
+        [TestCase("17.60", "2-7/8", "2-1/16")]
+        [TestCase("16.81", "2-7/8", "2-1/8")]
+        [TestCase("29.56", "3-1/2", "2-1/16")]
+        [TestCase("27.68", "3-1/2", "2-1/4")]
+        [TestCase("35.57", "4", "2-1/2")]
+        [TestCase("33.94", "4", "2-9/16")]
+        [TestCase("49.30", "4-1/2", "2-1/2")]
+        [TestCase("45.03", "4-1/2", "2-13/16")]
+        [TestCase("56.57", "5", "3")]
+        [TestCase("60.51", "5-1/2", "3-5/8")]
+        [TestCase("56.00", "5-1/2", "3-7/8")]
+        public void button25_OD_ID_Spiral_Match_Test(string expected, string selected1, string selected2)
         {
             Form1 test = new Form1();
 
@@ -636,16 +660,16 @@ namespace Drilling_Calculator_NUnit
 
             test.radioButton29_checked = true;
 
-            test.comboBox9_selected = "1-1/2";
-            test.comboBox10_selected = "2-7/8";
+            test.comboBox9_selected = selected2;
+            test.comboBox10_selected = selected1;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "21.86") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "1-1/2") &&
+            if ((test.textBox40_text == expected) &&
+                (test.textBox41_text == selected1) &&
+                (test.textBox42_text == selected2) &&
                 (test.textBox43_text == "SPIRAL"))
             {
                 actual = true;
@@ -720,8 +744,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_Wt_Match_FirstLoop_Test()
+        [TestCase("18.01", "2-7/8", "1-1/2")]
+        [TestCase("13.67", "2-7/8", "2")]
+        [TestCase("14.21", "2-7/8", "2-1/16")]
+        [TestCase("13.51", "2-7/8", "2-1/8")]
+        [TestCase("25.38", "3-1/2", "2-1/16")]
+        [TestCase("23.50", "3-1/2", "2-1/4")]
+        [TestCase("30.68", "4", "2-1/2")]
+        [TestCase("29.06", "4", "2-9/16")]
+        [TestCase("43.70", "4-1/2", "2-1/2")]
+        [TestCase("39.42", "4-1/2", "2-13/16")]
+        [TestCase("50.23", "5", "3")]
+        [TestCase("53.45", "5-1/2", "3-5/8")]
+        [TestCase("48.93", "5-1/2", "3-7/8")]
+        public void button25_Wt_Match_FirstLoop_Test(string selectedWeight, string expected1, string expected2)
         {
             Form1 test = new Form1();
 
@@ -729,15 +765,15 @@ namespace Drilling_Calculator_NUnit
             test.checkBox9_checked = true;
             test.checkBox10_checked = false;
 
-            test.comboBox8_selected = "14.21";
+            test.comboBox8_selected = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "14.21") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "2-1/16") &&
+            if ((test.textBox40_text == selectedWeight) &&
+                (test.textBox41_text == expected1) &&
+                (test.textBox42_text == expected2) &&
                 (test.textBox43_text == "STANDARD"))
             {
                 actual = true;
@@ -750,8 +786,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_Wt_Match_SecondLoop_Test()
+        [TestCase("21.86", "2-7/8", "1-1/2")]
+        [TestCase("16.98", "2-7/8", "2")]
+        [TestCase("17.60", "2-7/8", "2-1/16")]
+        [TestCase("16.81", "2-7/8", "2-1/8")]
+        [TestCase("29.56", "3-1/2", "2-1/16")]
+        [TestCase("27.68", "3-1/2", "2-1/4")]
+        [TestCase("35.57", "4", "2-1/2")]
+        [TestCase("33.94", "4", "2-9/16")]
+        [TestCase("49.30", "4-1/2", "2-1/2")]
+        [TestCase("45.03", "4-1/2", "2-13/16")]
+        [TestCase("56.57", "5", "3")]
+        [TestCase("60.51", "5-1/2", "3-5/8")]
+        [TestCase("56.00", "5-1/2", "3-7/8")]
+        public void button25_Wt_Match_SecondLoop_Test(string selectedWeight, string expected1, string expected2)
         {
             Form1 test = new Form1();
 
@@ -759,15 +807,15 @@ namespace Drilling_Calculator_NUnit
             test.checkBox9_checked = true;
             test.checkBox10_checked = false;
 
-            test.comboBox8_selected = "16.81";
+            test.comboBox8_selected = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "16.81") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "2-1/8") &&
+            if ((test.textBox40_text == selectedWeight) &&
+                (test.textBox41_text == expected1) &&
+                (test.textBox42_text == expected2) &&
                 (test.textBox43_text == "SPIRAL"))
             {
                 actual = true;
@@ -810,8 +858,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_Wt_Alter_Match_FirstLoop_Test()
+        [TestCase("18.01", "2-7/8", "1-1/2")]
+        [TestCase("13.67", "2-7/8", "2")]
+        [TestCase("14.21", "2-7/8", "2-1/16")]
+        [TestCase("13.51", "2-7/8", "2-1/8")]
+        [TestCase("25.38", "3-1/2", "2-1/16")]
+        [TestCase("23.50", "3-1/2", "2-1/4")]
+        [TestCase("30.68", "4", "2-1/2")]
+        [TestCase("29.06", "4", "2-9/16")]
+        [TestCase("43.70", "4-1/2", "2-1/2")]
+        [TestCase("39.42", "4-1/2", "2-13/16")]
+        [TestCase("50.23", "5", "3")]
+        [TestCase("53.45", "5-1/2", "3-5/8")]
+        [TestCase("48.93", "5-1/2", "3-7/8")]
+        public void button25_Wt_Alter_Match_FirstLoop_Test(string selectedWeight, string expected1, string expected2)
         {
             Form1 test = new Form1();
 
@@ -819,15 +879,15 @@ namespace Drilling_Calculator_NUnit
             test.checkBox9_checked = true;
             test.checkBox10_checked = false;
 
-            test.comboBox8_selected = "14.21";
+            test.comboBox8_selected = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "14.21") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "2-1/16") &&
+            if ((test.textBox40_text == selectedWeight) &&
+                (test.textBox41_text == expected1) &&
+                (test.textBox42_text == expected2) &&
                 (test.textBox43_text == "STANDARD"))
             {
                 actual = true;
@@ -840,8 +900,20 @@ namespace Drilling_Calculator_NUnit
         }
 
         [STAThread]
-        [Test]
-        public void button25_Wt_Alter_Match_SecondLoop_Test()
+        [TestCase("21.86", "2-7/8", "1-1/2")]
+        [TestCase("16.98", "2-7/8", "2")]
+        [TestCase("17.60", "2-7/8", "2-1/16")]
+        [TestCase("16.81", "2-7/8", "2-1/8")]
+        [TestCase("29.56", "3-1/2", "2-1/16")]
+        [TestCase("27.68", "3-1/2", "2-1/4")]
+        [TestCase("35.57", "4", "2-1/2")]
+        [TestCase("33.94", "4", "2-9/16")]
+        [TestCase("49.30", "4-1/2", "2-1/2")]
+        [TestCase("45.03", "4-1/2", "2-13/16")]
+        [TestCase("56.57", "5", "3")]
+        [TestCase("60.51", "5-1/2", "3-5/8")]
+        [TestCase("56.00", "5-1/2", "3-7/8")]
+        public void button25_Wt_Alter_Match_SecondLoop_Test(string selectedWeight, string expected1, string expected2)
         {
             Form1 test = new Form1();
 
@@ -849,15 +921,15 @@ namespace Drilling_Calculator_NUnit
             test.checkBox9_checked = true;
             test.checkBox10_checked = true;
 
-            test.comboBox8_selected = "16.81";
+            test.comboBox8_selected = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "16.81") &&
-                (test.textBox41_text == "2-7/8") &&
-                (test.textBox42_text == "2-1/8") &&
+            if ((test.textBox40_text == selectedWeight) &&
+                (test.textBox41_text == expected1) &&
+                (test.textBox42_text == expected2) &&
                 (test.textBox43_text == "SPIRAL"))
             {
                 actual = true;
@@ -868,23 +940,6 @@ namespace Drilling_Calculator_NUnit
             Assert.AreEqual(actual, true);
 
         }
-
-        /*  test.comboBox8_selected = "";
-            test.comboBox9_selected = "";
-            test.comboBox10_selected = "";
-
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = false;
-            test.checkBox10_checked = false;
-
-            test.radioButton28_checked = false;
-            test.radioButton29_checked = false;
-
-            test.textBox40_text = "";
-            test.textBox41_text = "";
-            test.textBox42_text = "";
-            test.textBox43_text = "";
-         */
     }
 
     [TestFixture]

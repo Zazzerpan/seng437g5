@@ -20,4 +20,3 @@ C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.application
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.exe
 C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.pdb
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
