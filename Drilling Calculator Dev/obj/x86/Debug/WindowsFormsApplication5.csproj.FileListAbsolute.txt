@@ -1,22 +1,15 @@
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe.config
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.AboutBox1.resources
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form1.resources
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form2.resources
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form3.resources
-C:\Users\Chris\Desktop\Drilling Calculator Test Project\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe.config
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe.manifest
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.application
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.pdb
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.AboutBox1.resources
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form1.resources
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form2.resources
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form3.resources
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Properties.Resources.resources
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.exe.manifest
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.application
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.exe
-C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.pdb
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe.manifest
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.application
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.AboutBox1.resources
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form1.resources
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form2.resources
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Form3.resources
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.exe.manifest
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.application
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.exe
+C:\Users\Chris\seng437g5\Drilling Calculator Dev\obj\x86\Debug\WindowsFormsApplication5.pdb
