@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1205]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll</TopNode>
+  <SelectedNode>[0-1205]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1205]C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1207]Drilling_Calculator_NUnit" Expanded="true" />
+    <Node UniqueName="[0-1142]Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests" Expanded="true" />
+    <Node UniqueName="[0-1154]Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests" Expanded="true" />
+    <Node UniqueName="[0-1206]DrillingCalcTest" Expanded="true" />
+  </Nodes>
+</VisualState>

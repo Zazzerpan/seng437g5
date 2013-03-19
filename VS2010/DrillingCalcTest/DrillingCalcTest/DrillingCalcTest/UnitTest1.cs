@@ -3,6 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
+using WindowsFormsApplication5;
 
 namespace DrillingCalcTest
 {
@@ -250,7 +251,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "12"; // linear diamter
             test.textBox22.Text = "14"; // linear length
             test.textBox23.Text = "1"; // volumetric effeciancy
@@ -275,7 +276,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "12"; // linear diamter
             test.textBox22.Text = "14"; // linear length
             test.textBox23.Text = "1"; // volumetric effeciancy
@@ -299,7 +300,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "12"; // linear diamter
             test.textBox22.Text = "14"; // linear length
             test.textBox23.Text = "1"; // volumetric effeciancy
@@ -326,7 +327,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "-2"; // linear diamter
             test.textBox22.Text = "-1"; // linear length
             test.textBox23.Text = "-1"; // volumetric effeciancy
@@ -350,7 +351,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "-2"; // linear diamter
             test.textBox22.Text = "-1"; // linear length
             test.textBox23.Text = "-1"; // volumetric effeciancy
@@ -374,7 +375,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "-2"; // linear diamter
             test.textBox22.Text = "-1"; // linear length
             test.textBox23.Text = "-1"; // volumetric effeciancy
@@ -398,7 +399,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "0"; // linear diamter
             test.textBox22.Text = "0"; // linear length
             test.textBox23.Text = "0"; // volumetric effeciancy
@@ -422,7 +423,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "0"; // linear diamter
             test.textBox22.Text = "0"; // linear length
             test.textBox23.Text = "0"; // volumetric effeciancy
@@ -446,7 +447,7 @@ namespace DrillingCalcTest
             //test.Show();
             //test.Activate();
 
-            test.radioButton20.State = true;
+            test.radioButton20.Checked = true;
             test.textBox20.Text = "0"; // linear diamter
             test.textBox22.Text = "0"; // linear length
             test.textBox23.Text = "0"; // volumetric effeciancy

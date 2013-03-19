@@ -5,6 +5,9 @@ using WindowsFormsApplication5;
 
 namespace Drilling_Calculator_NUnit
 {
+    //Bug found not sure if done before: the "copy" buttons in the chart window are all crap when the box is empty
+
+    //Complete Statement & Edge coverage, Condition & Path not done yet
     [TestFixture]
     public class drillPipeTests
     {
@@ -15,17 +18,16 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = false;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = false;
-
+            test.checkBox2.Checked = false;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = false;
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Select") &&
-                (test.textBox35_text == "Select") &&
-                (test.textBox36_text == "Select"))
+            if ((test.textBox34.Text == "Select") &&
+                (test.textBox35.Text == "Select") &&
+                (test.textBox36.Text == "Select"))
             {
                 actual = true;
             }
@@ -41,17 +43,17 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = true;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = false;
+            test.checkBox2.Checked = true;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = false;
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Select Another") &&
-                (test.textBox35_text == "Select Another") &&
-                (test.textBox36_text == "Select Another"))
+            if ((test.textBox34.Text == "Select Another") &&
+                (test.textBox35.Text == "Select Another") &&
+                (test.textBox36.Text == "Select Another"))
             {
                 actual = true;
             }
@@ -67,19 +69,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = true;
-            test.checkBox3_Checked = true;
+            test.checkBox2.Checked = true;
+            test.checkBox3.Checked = true;
 
-            test.comboBox2_selected = "2-7/8";
-            test.comboBox3_selected = "1.995";
+            test.comboBox2.SelectedItem = "2-7/8";
+            test.comboBox3.SelectedItem = "1.995";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Recheck") &&
-                (test.textBox35_text == "Recheck") &&
-                (test.textBox36_text == "Recheck"))
+            if ((test.textBox34.Text == "Recheck") &&
+                (test.textBox35.Text == "Recheck") &&
+                (test.textBox36.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -96,19 +98,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = true;
-            test.checkBox3_Checked = true;
+            test.checkBox2.Checked = true;
+            test.checkBox3.Checked = true;
 
-            test.comboBox2_selected = "2-3/8";
-            test.comboBox3_selected = "1.995";
+            test.comboBox2.SelectedItem = "2-3/8";
+            test.comboBox3.SelectedItem = "1.995";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "2-3/8") &&
-                (test.textBox35_text == "1.995") &&
-                (test.textBox36_text == "4.85"))
+            if ((test.textBox34.Text == "2-3/8") &&
+                (test.textBox35.Text == "1.995") &&
+                (test.textBox36.Text == "4.85"))
             {
                 actual = true;
             }
@@ -125,20 +127,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = true;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = true;
+            test.checkBox2.Checked = true;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = true;
 
-            test.comboBox3_selected = "2.441";
-            test.comboBox4_selected = "10.40";
+            test.comboBox3.SelectedItem = "2.441";
+            test.comboBox4.SelectedItem = "10.40";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Recheck") &&
-                (test.textBox35_text == "Recheck") &&
-                (test.textBox36_text == "Recheck"))
+            if ((test.textBox34.Text == "Recheck") &&
+                (test.textBox35.Text == "Recheck") &&
+                (test.textBox36.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -155,20 +157,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = true;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = true;
+            test.checkBox2.Checked = true;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = true;
 
-            test.comboBox2_selected = "2-3/8";
-            test.comboBox4_selected = "6.65";
+            test.comboBox2.SelectedItem = "2-3/8";
+            test.comboBox4.SelectedItem = "6.65";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "2-3/8") &&
-                (test.textBox35_text == "1.815") &&
-                (test.textBox36_text == "6.65"))
+            if ((test.textBox34.Text == "2-3/8") &&
+                (test.textBox35.Text == "1.815") &&
+                (test.textBox36.Text == "6.65"))
             {
                 actual = true;
             }
@@ -185,19 +187,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = false;
-            test.checkBox3_Checked = true;
-            test.checkBox4_Checked = false;
+            test.checkBox2.Checked = false;
+            test.checkBox3.Checked = true;
+            test.checkBox4.Checked = false;
 
-            test.comboBox3_selected = "3.340";
+            test.comboBox3.SelectedItem = "3.340";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "4") &&
-                (test.textBox35_text == "3.340") &&
-                (test.textBox36_text == "14.00"))
+            if ((test.textBox34.Text == "4") &&
+                (test.textBox35.Text == "3.340") &&
+                (test.textBox36.Text == "14.00"))
             {
                 actual = true;
             }
@@ -215,19 +217,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = false;
-            test.checkBox3_Checked = true;
-            test.checkBox4_Checked = false;
+            test.checkBox2.Checked = false;
+            test.checkBox3.Checked = true;
+            test.checkBox4.Checked = false;
 
-            test.comboBox3_selected = "invalid";
+            test.comboBox3.SelectedItem = "invalid";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Recheck") &&
-                (test.textBox35_text == "Recheck") &&
-                (test.textBox36_text == "Recheck"))
+            if ((test.textBox34.Text == "Recheck") &&
+                (test.textBox35.Text == "Recheck") &&
+                (test.textBox36.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -244,19 +246,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = false;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = true;
+            test.checkBox2.Checked = false;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = true;
 
-            test.comboBox4_selected = "invalid";
+            test.comboBox4.SelectedItem = "invalid";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "Recheck") &&
-                (test.textBox35_text == "Recheck") &&
-                (test.textBox36_text == "Recheck"))
+            if ((test.textBox34.Text == "Recheck") &&
+                (test.textBox35.Text == "Recheck") &&
+                (test.textBox36.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -273,19 +275,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox2_Checked = false;
-            test.checkBox3_Checked = false;
-            test.checkBox4_Checked = true;
+            test.checkBox2.Checked = false;
+            test.checkBox3.Checked = false;
+            test.checkBox4.Checked = true;
 
-            test.comboBox4_selected = "6.85";
+            test.comboBox4.SelectedItem = "6.85";
 
             test.button23_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox34_text == "2-7/8") &&
-                (test.textBox35_text == "2.441") &&
-                (test.textBox36_text == "6.85"))
+            if ((test.textBox34.Text == "2-7/8") &&
+                (test.textBox35.Text == "2.441") &&
+                (test.textBox36.Text == "6.85"))
             {
                 actual = true;
             }
@@ -306,17 +308,17 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = false;
-            test.checkBox6_checked = false;
-            test.checkBox7_checked = false;
+            test.checkBox5.Checked = false;
+            test.checkBox6.Checked = false;
+            test.checkBox7.Checked = false;
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "Recheck") &&
-                (test.textBox38_text == "Recheck") &&
-                (test.textBox39_text == "Recheck"))
+            if ((test.textBox37.Text == "Recheck") &&
+                (test.textBox38.Text == "Recheck") &&
+                (test.textBox39.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -332,19 +334,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = true;
-            test.checkBox6_checked = true;
-            test.checkBox7_checked = false;
+            test.checkBox5.Checked = true;
+            test.checkBox6.Checked = true;
+            test.checkBox7.Checked = false;
 
-            test.comboBox5_selected = "24.00";
+            test.comboBox5.SelectedItem = "24.00";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "24.00") &&
-                (test.textBox38_text == "3-1/4") &&
-                (test.textBox39_text == "1-1/4"))
+            if ((test.textBox37.Text == "24.00") &&
+                (test.textBox38.Text == "3-1/4") &&
+                (test.textBox39.Text == "1-1/4"))
             {
                 actual = true;
             }
@@ -360,19 +362,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = true;
-            test.checkBox6_checked = true;
-            test.checkBox7_checked = false;
+            test.checkBox5.Checked = true;
+            test.checkBox6.Checked = true;
+            test.checkBox7.Checked = false;
 
-            test.comboBox5_selected = "invalid";
+            test.comboBox5.SelectedItem = "invalid";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "Recheck") &&
-                (test.textBox38_text == "Recheck") &&
-                (test.textBox39_text == "Recheck"))
+            if ((test.textBox37.Text == "Recheck") &&
+                (test.textBox38.Text == "Recheck") &&
+                (test.textBox39.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -388,19 +390,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = false;
-            test.checkBox6_checked = true;
-            test.checkBox7_checked = false;
+            test.checkBox5.Checked = false;
+            test.checkBox6.Checked = true;
+            test.checkBox7.Checked = false;
 
-            test.comboBox5_selected = "21.35";
+            test.comboBox5.SelectedItem = "21.35";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "21.35") &&
-                (test.textBox38_text == "3") &&
-                (test.textBox39_text == "1"))
+            if ((test.textBox37.Text == "21.35") &&
+                (test.textBox38.Text == "3") &&
+                (test.textBox39.Text == "1"))
             {
                 actual = true;
             }
@@ -416,19 +418,19 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = false;
-            test.checkBox6_checked = true;
-            test.checkBox7_checked = false;
+            test.checkBox5.Checked = false;
+            test.checkBox6.Checked = true;
+            test.checkBox7.Checked = false;
 
-            test.comboBox5_selected = "invalid";
+            test.comboBox5.SelectedItem = "invalid";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "Recheck") &&
-                (test.textBox38_text == "Recheck") &&
-                (test.textBox39_text == "Recheck"))
+            if ((test.textBox37.Text == "Recheck") &&
+                (test.textBox38.Text == "Recheck") &&
+                (test.textBox39.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -444,20 +446,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = true;
-            test.checkBox6_checked = false;
-            test.checkBox7_checked = true;
+            test.checkBox5.Checked = true;
+            test.checkBox6.Checked = false;
+            test.checkBox7.Checked = true;
 
-            test.comboBox7_selected = "3-3/8";
-            test.comboBox6_selected = "1-1/2";
+            test.comboBox7.SelectedItem = "3-3/8";
+            test.comboBox6.SelectedItem = "1-1/2";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "24.39") &&
-                (test.textBox38_text == "3-3/8") &&
-                (test.textBox39_text == "1-1/2"))
+            if ((test.textBox37.Text == "24.39") &&
+                (test.textBox38.Text == "3-3/8") &&
+                (test.textBox39.Text == "1-1/2"))
             {
                 actual = true;
             }
@@ -473,20 +475,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = true;
-            test.checkBox6_checked = false;
-            test.checkBox7_checked = true;
+            test.checkBox5.Checked = true;
+            test.checkBox6.Checked = false;
+            test.checkBox7.Checked = true;
 
-            test.comboBox7_selected = "3";
-            test.comboBox6_selected = "1-1/4";
+            test.comboBox7.SelectedItem = "3";
+            test.comboBox6.SelectedItem = "1-1/4";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "Recheck") &&
-                (test.textBox38_text == "Recheck") &&
-                (test.textBox39_text == "Recheck"))
+            if ((test.textBox37.Text == "Recheck") &&
+                (test.textBox38.Text == "Recheck") &&
+                (test.textBox39.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -502,20 +504,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox5_checked = true;
-            test.checkBox6_checked = false;
-            test.checkBox7_checked = true;
+            test.checkBox5.Checked = true;
+            test.checkBox6.Checked = false;
+            test.checkBox7.Checked = true;
 
-            test.comboBox7_selected = "invalid";
-            test.comboBox6_selected = "invalid";
+            test.comboBox7.SelectedItem = "invalid";
+            test.comboBox6.SelectedItem = "invalid";
 
             test.button24_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox37_text == "Recheck") &&
-                (test.textBox38_text == "Recheck") &&
-                (test.textBox39_text == "Recheck"))
+            if ((test.textBox37.Text == "Recheck") &&
+                (test.textBox38.Text == "Recheck") &&
+                (test.textBox39.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -536,18 +538,18 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = false;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = false;
+            test.checkBox9.Checked = false;
+            test.checkBox10.Checked = false;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "Recheck") &&
-                (test.textBox41_text == "Recheck") &&
-                (test.textBox42_text == "Recheck") &&
-                (test.textBox43_text == "Recheck"))
+            if ((test.textBox40.Text == "Recheck") &&
+                (test.textBox41.Text == "Recheck") &&
+                (test.textBox42.Text == "Recheck") &&
+                (test.textBox43.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -576,22 +578,22 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox10_checked = true;
+            test.checkBox8.Checked = true;
+            test.checkBox10.Checked = true;
 
-            test.radioButton28_checked = true;
+            test.radioButton28.Checked = true;
 
-            test.comboBox9_selected = selected2;
-            test.comboBox10_selected = selected1; 
+            test.comboBox9.SelectedItem = selected2;
+            test.comboBox10.SelectedItem = selected1; 
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == expected) &&
-                (test.textBox41_text == selected1) &&
-                (test.textBox42_text == selected2) &&
-                (test.textBox43_text == "STANDARD"))
+            if ((test.textBox40.Text == expected) &&
+                (test.textBox41.Text == selected1) &&
+                (test.textBox42.Text == selected2) &&
+                (test.textBox43.Text == "STANDARD"))
             {
                 actual = true;
             }
@@ -608,22 +610,22 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox10_checked = true;
+            test.checkBox8.Checked = true;
+            test.checkBox10.Checked = true;
 
-            test.radioButton28_checked = true;
+            test.radioButton28.Checked = true;
 
-            test.comboBox9_selected = "2-1/2";
-            test.comboBox10_selected = "3-1/2";
+            test.comboBox9.SelectedItem = "2-1/2";
+            test.comboBox10.SelectedItem = "3-1/2";
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "Recheck") &&
-                (test.textBox41_text == "Recheck") &&
-                (test.textBox42_text == "Recheck") &&
-                (test.textBox43_text == "Recheck"))
+            if ((test.textBox40.Text == "Recheck") &&
+                (test.textBox41.Text == "Recheck") &&
+                (test.textBox42.Text == "Recheck") &&
+                (test.textBox43.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -652,22 +654,22 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox10_checked = true;
+            test.checkBox8.Checked = true;
+            test.checkBox10.Checked = true;
 
-            test.radioButton29_checked = true;
+            test.radioButton29.Checked = true;
 
-            test.comboBox9_selected = selected2;
-            test.comboBox10_selected = selected1;
+            test.comboBox9.SelectedItem = selected2;
+            test.comboBox10.SelectedItem = selected1;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == expected) &&
-                (test.textBox41_text == selected1) &&
-                (test.textBox42_text == selected2) &&
-                (test.textBox43_text == "SPIRAL"))
+            if ((test.textBox40.Text == expected) &&
+                (test.textBox41.Text == selected1) &&
+                (test.textBox42.Text == selected2) &&
+                (test.textBox43.Text == "SPIRAL"))
             {
                 actual = true;
             }
@@ -684,22 +686,22 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox10_checked = true;
+            test.checkBox8.Checked = true;
+            test.checkBox10.Checked = true;
 
-            test.radioButton29_checked = true;
+            test.radioButton29.Checked = true;
 
-            test.comboBox9_selected = "3-7/8";
-            test.comboBox10_selected = "2-7/8";
+            test.comboBox9.SelectedItem = "3-7/8";
+            test.comboBox10.SelectedItem = "2-7/8";
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "Recheck") &&
-                (test.textBox41_text == "Recheck") &&
-                (test.textBox42_text == "Recheck") &&
-                (test.textBox43_text == "Recheck"))
+            if ((test.textBox40.Text == "Recheck") &&
+                (test.textBox41.Text == "Recheck") &&
+                (test.textBox42.Text == "Recheck") &&
+                (test.textBox43.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -716,20 +718,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = false;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = false;
 
-            test.comboBox8_selected = "invalid";
+            test.comboBox8.SelectedItem = "invalid";
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "Recheck") &&
-                (test.textBox41_text == "Recheck") &&
-                (test.textBox42_text == "Recheck") &&
-                (test.textBox43_text == "Recheck"))
+            if ((test.textBox40.Text == "Recheck") &&
+                (test.textBox41.Text == "Recheck") &&
+                (test.textBox42.Text == "Recheck") &&
+                (test.textBox43.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -758,20 +760,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = false;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = false;
 
-            test.comboBox8_selected = selectedWeight;
+            test.comboBox8.SelectedItem = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == selectedWeight) &&
-                (test.textBox41_text == expected1) &&
-                (test.textBox42_text == expected2) &&
-                (test.textBox43_text == "STANDARD"))
+            if ((test.textBox40.Text == selectedWeight) &&
+                (test.textBox41.Text == expected1) &&
+                (test.textBox42.Text == expected2) &&
+                (test.textBox43.Text == "STANDARD"))
             {
                 actual = true;
             }
@@ -800,20 +802,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = false;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = false;
 
-            test.comboBox8_selected = selectedWeight;
+            test.comboBox8.SelectedItem = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == selectedWeight) &&
-                (test.textBox41_text == expected1) &&
-                (test.textBox42_text == expected2) &&
-                (test.textBox43_text == "SPIRAL"))
+            if ((test.textBox40.Text == selectedWeight) &&
+                (test.textBox41.Text == expected1) &&
+                (test.textBox42.Text == expected2) &&
+                (test.textBox43.Text == "SPIRAL"))
             {
                 actual = true;
             }
@@ -830,20 +832,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = true;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = false;
 
-            test.comboBox8_selected = "invalid";
+            test.comboBox8.SelectedItem = "invalid";
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == "Recheck") &&
-                (test.textBox41_text == "Recheck") &&
-                (test.textBox42_text == "Recheck") &&
-                (test.textBox43_text == "Recheck"))
+            if ((test.textBox40.Text == "Recheck") &&
+                (test.textBox41.Text == "Recheck") &&
+                (test.textBox42.Text == "Recheck") &&
+                (test.textBox43.Text == "Recheck"))
             {
                 actual = true;
             }
@@ -872,20 +874,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = true;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = false;
+            test.checkBox8.Checked = true;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = false;
 
-            test.comboBox8_selected = selectedWeight;
+            test.comboBox8.SelectedItem = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == selectedWeight) &&
-                (test.textBox41_text == expected1) &&
-                (test.textBox42_text == expected2) &&
-                (test.textBox43_text == "STANDARD"))
+            if ((test.textBox40.Text == selectedWeight) &&
+                (test.textBox41.Text == expected1) &&
+                (test.textBox42.Text == expected2) &&
+                (test.textBox43.Text == "STANDARD"))
             {
                 actual = true;
             }
@@ -914,20 +916,20 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.checkBox8_checked = false;
-            test.checkBox9_checked = true;
-            test.checkBox10_checked = true;
+            test.checkBox8.Checked = false;
+            test.checkBox9.Checked = true;
+            test.checkBox10.Checked = true;
 
-            test.comboBox8_selected = selectedWeight;
+            test.comboBox8.SelectedItem = selectedWeight;
 
             test.button25_Click(null, null);
 
             bool actual;
 
-            if ((test.textBox40_text == selectedWeight) &&
-                (test.textBox41_text == expected1) &&
-                (test.textBox42_text == expected2) &&
-                (test.textBox43_text == "SPIRAL"))
+            if ((test.textBox40.Text == selectedWeight) &&
+                (test.textBox41.Text == expected1) &&
+                (test.textBox42.Text == expected2) &&
+                (test.textBox43.Text == "SPIRAL"))
             {
                 actual = true;
             }
@@ -955,7 +957,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox34_text = source;
+            test.textBox34.Text = source;
 
             test.button26_Click(null, null);
 
@@ -968,7 +970,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox35_text = "1.234";
+            test.textBox35.Text = "1.234";
 
             test.button27_Click(null, null);
 
@@ -982,7 +984,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox36_text = "2.345";
+            test.textBox36.Text = "2.345";
 
             test.button28_Click(null, null);
 
@@ -995,7 +997,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox37_text = "12.12";
+            test.textBox37.Text = "12.12";
 
             test.button29_Click(null, null);
 
@@ -1018,7 +1020,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox39_text = source;
+            test.textBox39.Text = source;
 
             test.button30_Click(null, null);
 
@@ -1061,7 +1063,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox38_text = source;
+            test.textBox38.Text = source;
 
             test.button31_Click(null, null);
 
@@ -1074,7 +1076,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox40_text = "12.12";
+            test.textBox40.Text = "12.12";
 
             test.button32_Click(null, null);
 
@@ -1097,7 +1099,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox42_text = source;
+            test.textBox42.Text = source;
 
             test.button33_Click(null, null);
 
@@ -1114,7 +1116,7 @@ namespace Drilling_Calculator_NUnit
         {
             Form1 test = new Form1();
 
-            test.textBox41_text = source;
+            test.textBox41.Text = source;
 
             test.button34_Click(null, null);
 

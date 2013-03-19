@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll" total="189" errors="2" failures="11" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-03-19" time="11:35:23">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="SIMONLUNA-HP" user="SIMON LUNA" user-domain="SIMONLUNA-HP" />
+  <culture-info current-culture="en-CA" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll" executed="True" result="Failure" success="False" time="85.255" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Drilling_Calculator_NUnit" executed="True" result="Failure" success="False" time="77.549" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="copyButtonTests" executed="True" result="Failure" success="False" time="32.283" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="button26_Clipboard_Tests" executed="True" result="Success" success="True" time="5.096" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Success" success="True" time="2.046" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;2-3/8&quot;,2.375d)" executed="True" result="Success" success="True" time="0.418" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;2-7/8&quot;,2.875d)" executed="True" result="Success" success="True" time="0.430" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;6-5/8&quot;,6.625d)" executed="True" result="Success" success="True" time="0.390" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Success" success="True" time="0.408" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;4&quot;,4)" executed="True" result="Success" success="True" time="0.435" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Success" success="True" time="0.387" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button26_Clipboard_Tests(&quot;4.12345&quot;,4.12345d)" executed="True" result="Success" success="True" time="0.424" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button27_Clipboard_Test" executed="True" result="Success" success="True" time="0.442" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button28_Clipboard_Test" executed="True" result="Success" success="True" time="0.422" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button29_Clipboard_Test" executed="True" result="Success" success="True" time="0.404" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button30_Clipboard_Tests" executed="True" result="Failure" success="False" time="5.035" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;1-1/4&quot;,1.25d)" executed="True" result="Success" success="True" time="0.447" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;1-3/4&quot;,1.75d)" executed="True" result="Success" success="True" time="0.425" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;2-1/4&quot;,2.25d)" executed="True" result="Success" success="True" time="0.399" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;2-1/2&quot;,2.5d)" executed="True" result="Success" success="True" time="0.407" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;2-13/16&quot;,2.8125d)" executed="True" result="Success" success="True" time="0.425" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Success" success="True" time="0.397" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Success" success="True" time="0.406" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;1.234&quot;,1.234d)" executed="True" result="Error" success="False" time="0.514" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+                      <stack-trace><![CDATA[at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+at System.Convert.ToDouble(String value)
+at WindowsFormsApplication5.Form1.button30_Click(Object sender, EventArgs e) in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\Form1.cs:line 1293
+at Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(String source, Double result) in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\Charts.cs:line 1025
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;11/8&quot;,1.375d)" executed="True" result="Success" success="True" time="0.393" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button30_Clipboard_Tests(&quot;1-1/2&quot;,1.5d)" executed="True" result="Success" success="True" time="0.434" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="button31_Clipboard_Tests" executed="True" result="Failure" success="False" time="13.887" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Success" success="True" time="0.485" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;6-1/4&quot;,6.25d)" executed="True" result="Success" success="True" time="0.435" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;7-1/4&quot;,7.25d)" executed="True" result="Success" success="True" time="0.445" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;5-3/4&quot;,5.75d)" executed="True" result="Success" success="True" time="0.440" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;7-3/4&quot;,7.75d)" executed="True" result="Success" success="True" time="0.410" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;8-1/4&quot;,8.25d)" executed="True" result="Success" success="True" time="0.399" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;8-1/2&quot;,8.5d)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;8-3/4&quot;,8.75d)" executed="True" result="Success" success="True" time="0.418" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;9-1/4&quot;,9.25d)" executed="True" result="Success" success="True" time="0.459" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;9-1/2&quot;,9.5d)" executed="True" result="Success" success="True" time="0.480" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;9-3/4&quot;,9.75d)" executed="True" result="Success" success="True" time="0.517" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;10-1/4&quot;,10.25d)" executed="True" result="Success" success="True" time="0.395" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;10-1/2&quot;,10.5d)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;10-3/4&quot;,10.75d)" executed="True" result="Success" success="True" time="0.442" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;11-1/4&quot;,11.25d)" executed="True" result="Success" success="True" time="0.440" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;11-1/2&quot;,11.5d)" executed="True" result="Success" success="True" time="0.407" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;11-3/4&quot;,11.75d)" executed="True" result="Success" success="True" time="0.391" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;0.1234&quot;,0.1234d)" executed="True" result="Error" success="False" time="0.427" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.FormatException : Input string was not in a correct format.]]></message>
+                      <stack-trace><![CDATA[at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+at System.Convert.ToDouble(String value)
+at WindowsFormsApplication5.Form1.button31_Click(Object sender, EventArgs e) in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\Form1.cs:line 1267
+at Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(String source, Double result) in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\Charts.cs:line 1068
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;7-1/2&quot;,7.5d)" executed="True" result="Success" success="True" time="0.413" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;6-1/2&quot;,6.5d)" executed="True" result="Success" success="True" time="0.396" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/8&quot;,3.125d)" executed="True" result="Success" success="True" time="0.383" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/4&quot;,3.25d)" executed="True" result="Success" success="True" time="0.406" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-3/8&quot;,3.375d)" executed="True" result="Success" success="True" time="0.711" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Success" success="True" time="0.452" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;3-7/8&quot;,3.875d)" executed="True" result="Success" success="True" time="0.395" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/8&quot;,4.125d)" executed="True" result="Success" success="True" time="0.405" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/4&quot;,4.25d)" executed="True" result="Success" success="True" time="0.403" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Success" success="True" time="0.396" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;4-3/4&quot;,4.75d)" executed="True" result="Success" success="True" time="0.424" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;5-1/4&quot;,5.25d)" executed="True" result="Success" success="True" time="0.420" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button31_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Success" success="True" time="0.418" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button32_Clipboard_Test" executed="True" result="Success" success="True" time="0.414" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button33_Clipboard_Tests" executed="True" result="Success" success="True" time="4.498" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/2&quot;,2.5d)" executed="True" result="Success" success="True" time="0.435" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;1.234&quot;,1.234d)" executed="True" result="Success" success="True" time="0.429" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;1-1/2&quot;,1.5d)" executed="True" result="Success" success="True" time="0.374" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/16&quot;,2.0625d)" executed="True" result="Success" success="True" time="0.393" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/8&quot;,2.125d)" executed="True" result="Success" success="True" time="0.396" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/4&quot;,2.25d)" executed="True" result="Success" success="True" time="0.372" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/16&quot;,2.0625d)" executed="True" result="Success" success="True" time="0.411" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-9/16&quot;,2.5625d)" executed="True" result="Success" success="True" time="0.386" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;2-13/16&quot;,2.8125d)" executed="True" result="Success" success="True" time="0.431" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;3-5/8&quot;,3.625d)" executed="True" result="Success" success="True" time="0.368" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button33_Clipboard_Tests(&quot;3-7/8&quot;,3.875d)" executed="True" result="Success" success="True" time="0.392" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="button34_Clipboard_Tests" executed="True" result="Success" success="True" time="2.025" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button34_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Success" success="True" time="0.403" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button34_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Success" success="True" time="0.365" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button34_Clipboard_Tests(&quot;34.56&quot;,34.56d)" executed="True" result="Success" success="True" time="0.382" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button34_Clipboard_Tests(&quot;2-7/8&quot;,2.875d)" executed="True" result="Success" success="True" time="0.419" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.copyButtonTests.button34_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Success" success="True" time="0.373" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="drillCollarTests" executed="True" result="Success" success="True" time="3.653" asserts="0">
+            <results>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_None_Test" executed="True" result="Success" success="True" time="0.461" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_Match_Test" executed="True" result="Success" success="True" time="0.413" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_MatchButEmpty_Test" executed="True" result="Success" success="True" time="0.460" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_OD_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.452" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_Match_Alternative_Test" executed="True" result="Success" success="True" time="0.492" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.473" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_NoMatch_Alternative_Test" executed="True" result="Success" success="True" time="0.436" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillCollarTests.button24_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.435" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="drillPipeTests" executed="True" result="Success" success="True" time="4.442" asserts="0">
+            <results>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_Match_Test" executed="True" result="Success" success="True" time="0.419" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.406" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_None_Test" executed="True" result="Success" success="True" time="0.487" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_Match_Test" executed="True" result="Success" success="True" time="0.425" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_ID_NoMatch_Test" executed="True" result="Success" success="True" time="0.431" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_Test" executed="True" result="Success" success="True" time="0.456" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.504" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_OD_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.434" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_Match_Test" executed="True" result="Success" success="True" time="0.417" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="Drilling_Calculator_NUnit.drillPipeTests.button23_WtFt_NoMatch_Test" executed="True" result="Success" success="True" time="0.416" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="heavyWeightTests" executed="True" result="Success" success="True" time="37.137" asserts="0">
+            <results>
+              <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_None_Test" executed="True" result="Success" success="True" time="0.476" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button25_OD_ID_Spiral_Match_Test" executed="True" result="Success" success="True" time="5.903" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.438" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.437" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.462" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.423" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.441" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.451" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.421" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.420" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.442" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.458" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.460" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.446" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.429" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Spiral_NoMatch_Test" executed="True" result="Success" success="True" time="0.466" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button25_OD_ID_Std_Match_Test" executed="True" result="Success" success="True" time="5.560" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.411" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.441" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.389" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.426" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.391" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.398" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.434" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.453" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.385" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.396" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.430" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.405" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_OD_ID_Std_NoMatch_Test" executed="True" result="Success" success="True" time="0.467" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button25_Wt_Alter_Match_FirstLoop_Test" executed="True" result="Success" success="True" time="6.059" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.475" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.411" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.437" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.481" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.450" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.455" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.482" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.429" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.444" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.470" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.469" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.459" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="button25_Wt_Alter_Match_SecondLoop_Test" executed="True" result="Success" success="True" time="5.731" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.490" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.397" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.406" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.404" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.399" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.397" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.461" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.458" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.429" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.431" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.427" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.389" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.432" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Alter_NoMatch_Test" executed="True" result="Success" success="True" time="0.465" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedTest" name="button25_Wt_Match_FirstLoop_Test" executed="True" result="Success" success="True" time="5.811" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.412" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.470" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.473" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.395" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.438" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.453" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.435" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.418" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.435" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.428" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.424" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.426" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.421" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="button25_Wt_Match_SecondLoop_Test" executed="True" result="Success" success="True" time="5.662" asserts="0">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <results>
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.430" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Success" success="True" time="0.412" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Success" success="True" time="0.445" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Success" success="True" time="0.436" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Success" success="True" time="0.433" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Success" success="True" time="0.454" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Success" success="True" time="0.454" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Success" success="True" time="0.390" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.381" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Success" success="True" time="0.428" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Success" success="True" time="0.390" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Success" success="True" time="0.458" asserts="1" />
+                  <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Success" success="True" time="0.393" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Drilling_Calculator_NUnit.heavyWeightTests.button25_Wt_NoMatch_Test" executed="True" result="Success" success="True" time="0.463" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Namespace" name="DrillingCalcTest" executed="True" result="Failure" success="False" time="7.632" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="PumpfactorTests" executed="True" result="Failure" success="False" time="7.631" asserts="0">
+            <results>
+              <test-case name="DrillingCalcTest.PumpfactorTests.NegTestBarrels" executed="True" result="Failure" success="False" time="0.515" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: -0.00016190430000000001d
+  But was:  -0.00016196954972465201d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestBarrels() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 236
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.NegTestCubicInches" executed="True" result="Failure" success="False" time="0.427" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: -1.5707960000000001d
+  But was:  -1.5714285714285701d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestCubicInches() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 188
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.NegTestGallons" executed="True" result="Failure" success="False" time="0.417" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: -0.0067999000000000002d
+  But was:  -0.0068027210884353704d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestGallons() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 212
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.PosTestBarrels" executed="True" result="Failure" success="False" time="0.409" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 0.26984000000000002d
+  But was:  0.26984126984126999d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.PosTestBarrels() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 86
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.PosTestCubicInches" executed="True" result="Success" success="True" time="0.394" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.PosTestGallons" executed="True" result="Failure" success="False" time="0.430" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  SHOULD BE EQUAL
+  Expected: 11.33333d
+  But was:  11.3333333333333d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.PosTestGallons() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 62
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestBarrels" executed="True" result="Failure" success="False" time="0.405" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 0.00097181700000000004d
+  But was:  0.00129575639779721d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestBarrels() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 387
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestCubicInches" executed="True" result="Failure" success="False" time="0.396" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 9.4285714285714306d
+  But was:  12.5714285714286d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestCubicInches() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 339
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestGallons" executed="True" result="Failure" success="False" time="0.405" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 0.040816999999999999d
+  But was:  0.054421768707482998d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestGallons() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 363
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestBarrels" executed="True" result="Failure" success="False" time="0.392" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 0.48980000000000001d
+  But was:  0.65306122448979598d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestBarrels() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 312
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestCubicInches" executed="True" result="Failure" success="False" time="0.380" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 4752.0d
+  But was:  6336.0d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestCubicInches() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 263
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestGallons" executed="True" result="Failure" success="False" time="0.422" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  ROUNDING ERROR
+  Expected: 20.571400000000001d
+  But was:  27.428571428571399d
+]]></message>
+                  <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestGallons() in C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\UnitTest1.cs:line 288
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestCBarrels" executed="True" result="Success" success="True" time="0.421" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestCubicInches" executed="True" result="Success" success="True" time="0.417" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestGallons" executed="True" result="Success" success="True" time="0.397" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestCBarrels" executed="True" result="Success" success="True" time="0.435" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestCubicInches" executed="True" result="Success" success="True" time="0.429" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+              <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestGallons" executed="True" result="Success" success="True" time="0.453" asserts="1">
+                <properties>
+                  <property name="APARTMENT_STATE" value="STA" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

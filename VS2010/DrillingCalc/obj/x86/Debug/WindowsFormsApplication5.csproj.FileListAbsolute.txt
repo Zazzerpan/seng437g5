@@ -36,3 +36,19 @@ C:\Users\Chris\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplicati
 C:\Users\Chris\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
 C:\Users\Chris\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.exe.manifest
 C:\Users\Chris\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.application
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.exe
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.pdb
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\bin\Debug\WindowsFormsApplication5.exe.manifest
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\bin\Debug\WindowsFormsApplication5.application
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.AboutBox1.resources
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.Form1.resources
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.Form2.resources
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.Form3.resources
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.exe.manifest
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalc\obj\x86\Debug\WindowsFormsApplication5.application

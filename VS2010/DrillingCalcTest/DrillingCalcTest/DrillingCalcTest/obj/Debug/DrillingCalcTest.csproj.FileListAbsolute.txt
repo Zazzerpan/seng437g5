@@ -1,0 +1,9 @@
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.csprojResolveAssemblyReference.cache
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.pdb
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\nunit.framework.dll
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\nunit.framework.xml
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.dll
+C:\Users\SIMON LUNA\Desktop\Everything\GitHub\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.pdb

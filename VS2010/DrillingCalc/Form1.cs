@@ -1170,7 +1170,7 @@ namespace WindowsFormsApplication5
 
         }
 
-        double cp=0.0,cp2=0.0,cp3=0.0;
+        public double cp=0.0,cp2=0.0,cp3=0.0;
         public void button26_Click(object sender, EventArgs e)
         {
             if(textBox34.Text=="2-3/8")
