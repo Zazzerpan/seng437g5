@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest.csproj</TopNode>
+  <SelectedNode>[0-1000]C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest.csproj</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest.csproj" Expanded="true" />
+    <Node UniqueName="[0-1206]C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1207]DCT" Expanded="true" />
+    <Node UniqueName="[0-1208]DrillingCalcTest" Expanded="true" />
+  </Nodes>
+</VisualState>

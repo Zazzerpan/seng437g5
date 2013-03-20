@@ -1,0 +1,9 @@
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.csprojResolveAssemblyReference.cache
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.pdb
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\nunit.framework.dll
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\nunit.framework.xml
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.dll
+C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\obj\Debug\DrillingCalcTest.pdb

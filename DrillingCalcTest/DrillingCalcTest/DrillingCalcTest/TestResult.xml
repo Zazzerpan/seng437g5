@@ -1,0 +1,1577 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest.csproj" total="189" errors="189" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-03-19" time="13:04:57">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="ZAZZER-PC" user="Chris" user-domain="Zazzer-PC" />
+  <culture-info current-culture="en-CA" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest.csproj" executed="True" result="Failure" success="False" time="1.038" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Chris\seng437g5\VS2010\DrillingCalcTest\DrillingCalcTest\DrillingCalcTest\bin\Debug\DrillingCalcTest.dll" executed="True" result="Failure" success="False" time="1.038" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="DCT" executed="True" result="Failure" success="False" time="0.922" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="copyButtonTests" executed="True" result="Failure" success="False" time="0.394" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="button26_Clipboard_Tests" executed="True" result="Failure" success="False" time="0.051" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;2-3/8&quot;,2.375d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;4&quot;,4)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;6-5/8&quot;,6.625d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;4.12345&quot;,4.12345d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button26_Clipboard_Tests(&quot;2-7/8&quot;,2.875d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button26_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.copyButtonTests.button27_Clipboard_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.copyButtonTests.button27_Clipboard_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.copyButtonTests.button28_Clipboard_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.copyButtonTests.button28_Clipboard_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.copyButtonTests.button29_Clipboard_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.copyButtonTests.button29_Clipboard_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button30_Clipboard_Tests" executed="True" result="Failure" success="False" time="0.062" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;2-1/2&quot;,2.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;2-1/4&quot;,2.25d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;2-13/16&quot;,2.8125d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;1.234&quot;,1.234d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;11/8&quot;,1.375d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;1-1/4&quot;,1.25d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;1-1/2&quot;,1.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button30_Clipboard_Tests(&quot;1-3/4&quot;,1.75d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button30_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="button31_Clipboard_Tests" executed="True" result="Failure" success="False" time="0.150" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;5-1/4&quot;,5.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;6-1/2&quot;,6.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;7-1/2&quot;,7.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;7-3/4&quot;,7.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;8-1/4&quot;,8.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;8-1/2&quot;,8.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;8-3/4&quot;,8.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;9-1/4&quot;,9.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;9-1/2&quot;,9.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;9-3/4&quot;,9.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;10-1/4&quot;,10.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;10-1/2&quot;,10.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;10-3/4&quot;,10.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;11-1/4&quot;,11.25d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;11-1/2&quot;,11.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;11-3/4&quot;,11.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;0.1234&quot;,0.1234d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;7-1/4&quot;,7.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/8&quot;,3.125d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/4&quot;,3.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-3/8&quot;,3.375d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-3/4&quot;,3.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;3-7/8&quot;,3.875d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/8&quot;,4.125d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/4&quot;,4.25d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;4-3/4&quot;,4.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;5-3/4&quot;,5.75d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button31_Clipboard_Tests(&quot;6-1/4&quot;,6.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button31_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.copyButtonTests.button32_Clipboard_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.copyButtonTests.button32_Clipboard_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button33_Clipboard_Tests" executed="True" result="Failure" success="False" time="0.055" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/4&quot;,2.25d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;1.234&quot;,1.234d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;1-1/2&quot;,1.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/16&quot;,2.0625d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/8&quot;,2.125d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/16&quot;,2.0625d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-1/2&quot;,2.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-9/16&quot;,2.5625d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;2-13/16&quot;,2.8125d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;3-5/8&quot;,3.625d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button33_Clipboard_Tests(&quot;3-7/8&quot;,3.875d)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button33_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="button34_Clipboard_Tests" executed="True" result="Failure" success="False" time="0.021" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.copyButtonTests.button34_Clipboard_Tests(&quot;34.56&quot;,34.56d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button34_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button34_Clipboard_Tests(&quot;2-7/8&quot;,2.875d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button34_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button34_Clipboard_Tests(&quot;3-1/2&quot;,3.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button34_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button34_Clipboard_Tests(&quot;4-1/2&quot;,4.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button34_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.copyButtonTests.button34_Clipboard_Tests(&quot;5-1/2&quot;,5.5d)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.copyButtonTests.button34_Clipboard_Tests(String source, Double result)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="drillCollarTests" executed="True" result="Failure" success="False" time="0.037" asserts="0">
+                <results>
+                  <test-case name="DCT.drillCollarTests.button24_None_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_None_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_OD_ID_Match_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_OD_ID_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_OD_ID_MatchButEmpty_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_OD_ID_MatchButEmpty_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_OD_ID_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_OD_ID_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_WtFt_Match_Alternative_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_WtFt_Match_Alternative_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_WtFt_Match_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_WtFt_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_WtFt_NoMatch_Alternative_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_WtFt_NoMatch_Alternative_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillCollarTests.button24_WtFt_NoMatch_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillCollarTests.button24_WtFt_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="drillPipeTests" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+                <results>
+                  <test-case name="DCT.drillPipeTests.button23_ID_Match_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_ID_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_ID_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_ID_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_None_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_None_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_OD_ID_Match_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_OD_ID_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_OD_ID_NoMatch_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_OD_ID_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_OD_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_OD_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_OD_WtFt_Match_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_OD_WtFt_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_OD_WtFt_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_OD_WtFt_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_WtFt_Match_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_WtFt_Match_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DCT.drillPipeTests.button23_WtFt_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.drillPipeTests.button23_WtFt_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="heavyWeightTests" executed="True" result="Failure" success="False" time="0.422" asserts="0">
+                <results>
+                  <test-case name="DCT.heavyWeightTests.button25_None_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_None_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button25_OD_ID_Spiral_Match_Test" executed="True" result="Failure" success="False" time="0.063" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.heavyWeightTests.button25_OD_ID_Spiral_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Spiral_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button25_OD_ID_Std_Match_Test" executed="True" result="Failure" success="False" time="0.059" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_Match_Test(String expected, String selected1, String selected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.heavyWeightTests.button25_OD_ID_Std_NoMatch_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_OD_ID_Std_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button25_Wt_Alter_Match_FirstLoop_Test" executed="True" result="Failure" success="False" time="0.059" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="button25_Wt_Alter_Match_SecondLoop_Test" executed="True" result="Failure" success="False" time="0.059" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.heavyWeightTests.button25_Wt_Alter_NoMatch_Test" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Alter_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-suite type="ParameterizedTest" name="button25_Wt_Match_FirstLoop_Test" executed="True" result="Failure" success="False" time="0.059" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;30.68&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;13.67&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;14.21&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;13.51&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;25.38&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;23.50&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;18.01&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;29.06&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;43.70&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;39.42&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;50.23&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;53.45&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(&quot;48.93&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_FirstLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="button25_Wt_Match_SecondLoop_Test" executed="True" result="Failure" success="False" time="0.061" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <results>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;35.57&quot;,&quot;4&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;16.81&quot;,&quot;2-7/8&quot;,&quot;2-1/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;29.56&quot;,&quot;3-1/2&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;27.68&quot;,&quot;3-1/2&quot;,&quot;2-1/4&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;33.94&quot;,&quot;4&quot;,&quot;2-9/16&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;49.30&quot;,&quot;4-1/2&quot;,&quot;2-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;45.03&quot;,&quot;4-1/2&quot;,&quot;2-13/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;56.57&quot;,&quot;5&quot;,&quot;3&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;60.51&quot;,&quot;5-1/2&quot;,&quot;3-5/8&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;56.00&quot;,&quot;5-1/2&quot;,&quot;3-7/8&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;21.86&quot;,&quot;2-7/8&quot;,&quot;1-1/2&quot;)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;16.98&quot;,&quot;2-7/8&quot;,&quot;2&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(&quot;17.60&quot;,&quot;2-7/8&quot;,&quot;2-1/16&quot;)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                          <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_Match_SecondLoop_Test(String selectedWeight, String expected1, String expected2)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-case name="DCT.heavyWeightTests.button25_Wt_NoMatch_Test" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DCT.heavyWeightTests.button25_Wt_NoMatch_Test()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="DrillingCalcTest" executed="True" result="Failure" success="False" time="0.090" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="PumpfactorTests" executed="True" result="Failure" success="False" time="0.089" asserts="0">
+                <results>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.NegTestBarrels" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.NegTestCubicInches" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.NegTestGallons" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.NegTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.PosTestBarrels" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.PosTestBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.PosTestCubicInches" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.PosTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.PosTestGallons" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.PosTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestBarrels" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestCubicInches" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexNegTestGallons" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexNegTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestBarrels" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestCubicInches" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexPosTestGallons" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexPosTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestCBarrels" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexZeroTestCBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestCubicInches" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexZeroTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.TriplexZeroTestGallons" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.TriplexZeroTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestCBarrels" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.ZeroTestCBarrels()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestCubicInches" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.ZeroTestCubicInches()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="DrillingCalcTest.PumpfactorTests.ZeroTestGallons" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <properties>
+                      <property name="APARTMENT_STATE" value="STA" />
+                    </properties>
+                    <failure>
+                      <message><![CDATA[System.BadImageFormatException : Could not load file or assembly 'WindowsFormsApplication5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.]]></message>
+                      <stack-trace><![CDATA[at DrillingCalcTest.PumpfactorTests.ZeroTestGallons()
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,10 @@
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Release\WindowsFormsApplication5.exe
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Release\WindowsFormsApplication5.pdb
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\WindowsFormsApplication5.AboutBox1.resources
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\WindowsFormsApplication5.Form1.resources
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\WindowsFormsApplication5.exe
+C:\Users\Chho2\documents\visual studio 2010\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\x86\Release\WindowsFormsApplication5.pdb
